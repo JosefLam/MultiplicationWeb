@@ -1,0 +1,63 @@
+body {
+    font-family: 'Times New Roman', 'Times', 'serif';
+    background-color: #1d1d1f;
+}
+
+
+#addContainer {
+    background-image: url("https://t4.ftcdn.net/jpg/04/84/11/15/360_F_484111532_W0WOkKeXQzF75XusA7R8e3llIDXqyCFm.jpg");
+    padding: 4em;
+    margin: 2em;
+    border-radius: 2em;
+    text-align: center;
+    border-style: double;
+    border: 2px solid black;
+}
+
+.txt {
+    font-size: 2em;
+    width: 50vw;
+    padding: 1em 0;
+}
+
+#txt1 {
+    background-image: linear-gradient(to bottom left, #ff64d6, #8c7cf3, #81f3ff, #65fec1);
+}
+
+#txt2 {
+    background-image: linear-gradient(to bottom right, #ff64d6, #8c7cf3, #81f3ff, #65fec1);
+}
+
+input {
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0.2em;
+    text-align: center;
+}
+
+
+
+#logo {
+    width: 4em;
+    border-radius: 50%;
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+    opacity: 0.5;
+}
+
+/*copy pasted css to make body center*/
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
